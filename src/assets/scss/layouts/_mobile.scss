@@ -1,0 +1,15 @@
+.App {
+    display: grid;
+    grid-template-rows: 7vh 93vh;
+  
+    overflow: hidden;
+  }
+  
+  .content-pane {
+    overflow: scroll;
+    z-index: 1;
+  }
+  
+  .frozen {
+    overflow: hidden ;
+  }

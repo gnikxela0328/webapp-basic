@@ -1,0 +1,49 @@
+.menu {
+  transition: all 1s ease-out;
+  z-index: 2;
+
+  min-height: 0;
+}
+
+.menu-active {
+  display: grid;
+  //max-height: 100vh;
+  background-color: black;
+
+  //grid-template-columns: 1fr 8fr 1fr;
+  place-items: center;
+
+  .links {
+    //place-items: center;
+    display: inherit;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 2em;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 300px;
+    
+    .link-text {
+        color: blue !important;
+        text-decoration: none;
+
+        svg {
+            margin-left: .3em;
+        }
+    }
+
+
+    //grid-column: 2;
+  }
+
+  //overflow: hidden;
+  position: fixed;
+  top: 7vh;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.menu-dormant {
+  display: none;
+  //min-height: 0;
+  //max-height: 0vh;
+}

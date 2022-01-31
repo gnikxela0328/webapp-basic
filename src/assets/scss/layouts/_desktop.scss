@@ -1,0 +1,9 @@
+@include responsive(tabport) {
+    .App {
+      display: grid;
+      grid-template-rows: 5vh 95vh;
+  
+      
+    }
+  }
+  

@@ -1,0 +1,104 @@
+$exit-button: url("../images/exit.svg");
+$menu-button: url("../images/menu.svg");
+$icon: url("../images/logo.svg");
+
+.header-container {
+  display: inherit;
+  grid-row: 1;
+
+  background-color: red;
+  place-items: stretch;
+  margin: 0;
+}
+
+.header-main-full {
+  display: none;
+}
+
+.header-main-mobile {
+  display: inherit;
+
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(9, 1fr);
+  //align-items: center;
+  //justify-content: end;
+
+  .icon-container {
+    grid-column: 5;
+    background-image: $icon;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .menu-button {
+    //margin-right: 1.2em;
+    grid-column: 9;
+    scale: 1.4;
+
+    place-self: center;
+  }
+}
+
+// Anything larger than tabport
+@include responsive(tabport) {
+  .header-main-full {
+    display: inherit;
+    align-items: center;
+    grid-template-columns: .5fr 1.5fr 4fr 1fr 1fr;
+
+    //column-gap: 2em;
+    .icon-container {
+      grid-column: 1;
+      place-self: stretch;
+      background-image: $icon;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .header-links {
+      display: inherit;
+
+      grid-template-rows: 1fr;
+      grid-column: 3;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      place-items: center;
+
+      color: white;
+    }
+
+    .product-link {
+      color: blue;
+      border: solid 1px blue;
+      border-radius: 4px;
+      transition: all .2s;
+      grid-column: 5;
+      place-self: center;
+      padding-left: .8em;
+      padding-right: .8em;
+      padding-top: .3em;
+      padding-bottom: .3em;
+      margin-right: .5em;
+      text-decoration: none;
+      svg {
+        margin-left: .3em;
+        margin-bottom: -.1em;
+      }
+    }
+
+    .product-link:hover {
+      color: green;
+      border-color: orange;
+      background-color: white;
+    }
+  }
+
+  .header-main-mobile {
+    display: none;
+  }
+
+  .menu-active {
+    display: none;
+  }
+}

@@ -8,6 +8,7 @@ This is a website boilerplate, pre-configured with sass and structured to make w
 ### Getting started
 ```
 git clone https://github.com/gnikxela0328/webapp-basic
+cd webapp-basic/
 npm install
 ```
 

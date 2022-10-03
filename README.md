@@ -1,8 +1,10 @@
-### webapp-basic
+# webapp-basic
 
 This is a website boilerplate pre-configured with sass and structured to make web development easy
 
-What this kit includes:
+
+
+### What this kit includes:
 
 ```
 ./sass.sh

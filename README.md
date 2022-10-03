@@ -1,4 +1,4 @@
-###webapp-basic
+### webapp-basic
 
 This is a website boilerplate pre-configured with sass and structured to make web development easy
 
@@ -15,7 +15,7 @@ src/assets/
 ```
 This is where you write sass (scss folder), which is converted to plain css (css folder). There is only one output css file. All other changes are made to scss files. 
 
-``
+```
 src/assets/scss
 ```
 scss files are organized into a four folder structure.

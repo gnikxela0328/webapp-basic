@@ -31,7 +31,7 @@ Start the sass transpiler. This enables sass to look for changes to scss files.
 ```
 src/assets/
 ```
-This is where you write sass (scss folder), which is converted to plain css (css folder). There is only one output css file. All other changes are made to scss files. 
+This is where you write sass (scss folder), which is converted to plain css (css folder). <br /> There is only one output css file. You only need to make changes to scss files. 
 <br />
 ```
 src/assets/scss/

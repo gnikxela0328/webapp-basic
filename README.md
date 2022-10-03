@@ -3,7 +3,7 @@
 This is a website boilerplate, pre-configured with sass and structured to make web development easy
 
 <br />
-<br />
+
  <img src="https://publicsrv.s3.us-west-2.amazonaws.com/Screenshot+from+2022-10-03+04-03-04.png" alt="An example website layout built in this boilerplate" height="80%" />
  An example website layout built in this boilerplate
 

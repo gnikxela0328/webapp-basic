@@ -2,6 +2,8 @@
 
 This is a website boilerplate pre-configured with sass and structured to make web development easy
 
+<br />
+<br />
 
 
 ### What this kit includes:
@@ -10,13 +12,13 @@ This is a website boilerplate pre-configured with sass and structured to make we
 ./sass.sh
 ```
 Start the sass transpiler. This enables sass to look for changes to scss files.
-
+<br />
 
 ```
 src/assets/
 ```
 This is where you write sass (scss folder), which is converted to plain css (css folder). There is only one output css file. All other changes are made to scss files. 
-
+<br />
 ```
 src/assets/scss
 ```

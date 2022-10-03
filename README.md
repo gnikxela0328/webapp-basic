@@ -20,7 +20,7 @@ src/assets/
 This is where you write sass (scss folder), which is converted to plain css (css folder). There is only one output css file. All other changes are made to scss files. 
 <br />
 ```
-src/assets/scss
+src/assets/scss/
 ```
 scss files are organized into a four folder structure.
 

@@ -22,7 +22,7 @@ src/assets/scss
 ```
 scss files are organized into a four folder structure.
 
-abstracts   - Fonts, Colors, Commonly used values
+abstracts   - Fonts, Colors, Commonly used values <br />
 base        - Generic styling. Primarily things applying to root
 components  - Component specific styling
 layouts     - Web/Mobile compatibile layouts

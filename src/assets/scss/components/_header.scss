@@ -6,7 +6,7 @@ $icon: url("../images/logo.svg");
   display: inherit;
   grid-row: 1;
 
-  background-color: red;
+  background-color: #fef6ff;
   place-items: stretch;
   margin: 0;
 }
@@ -54,7 +54,7 @@ $icon: url("../images/logo.svg");
       background-image: $icon;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: 30%;
     }
 
     .header-links {
@@ -65,12 +65,12 @@ $icon: url("../images/logo.svg");
       grid-template-columns: 1fr 1fr 1fr 1fr;
       place-items: center;
 
-      color: white;
+      color: #4b4453;
     }
 
     .product-link {
-      color: blue;
-      border: solid 1px blue;
+      color: #4b4453;
+      border: solid 1px #4b4453;
       border-radius: 4px;
       transition: all .2s;
       grid-column: 5;

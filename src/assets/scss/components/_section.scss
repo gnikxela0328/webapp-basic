@@ -1,5 +1,6 @@
 .section-1 {
-    background-image: linear-gradient(to bottom right, green, red);
+    //background-image: linear-gradient(to bottom right, green, red);
+    background-color: #350c77;
     color: blue;
 
     display: grid;
@@ -8,7 +9,8 @@
     padding-left: 3vw;
     padding-right: 3vw;
 
-    height: 70vh;
+    //height: 70vh;
+    min-height: 100%;
 
     .title {
         display: inherit;

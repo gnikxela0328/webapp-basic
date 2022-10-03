@@ -1,10 +1,23 @@
 # webapp-basic
 
-This is a website boilerplate pre-configured with sass and structured to make web development easy
+This is a website boilerplate, pre-configured with sass and structured to make web development easy
 
 <br />
 <br />
 
+### Getting started
+```
+git clone https://github.com/gnikxela0328/webapp-basic
+npm install
+```
+
+You also need to install sass globally
+```
+sudo npm install -g sass
+```
+
+<br />
+<br />
 
 ### What this kit includes:
 
